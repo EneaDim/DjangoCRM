@@ -1,0 +1,17 @@
+- CRM project
+
+- Based on DJANGO
+	- django-admin startproject crm
+	- python manage.py startapp crm_website
+
+- DB used: mysql
+	- Create server and client sides (MariaDB)
+	- python mydb.py
+	- python manage.py migrate
+
+- Create a superuser
+	- python manage.py createsuperuser
+
+- RUN server
+	- python manage.py runserver
+	- Check localhost:8000

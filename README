@@ -15,3 +15,19 @@
 - RUN server
 	- python manage.py runserver
 	- Check localhost:8000
+
+- ADD all on github:
+	- git config --global user.name "Your Name"
+    - git config --global user.email "you@youraddress.com"
+    - git config --global push.default matching
+    - git config --global alias.co checkout
+    - git init
+    - Go to github
+	- New Repository
+	- Follow instruction
+	- For the push:
+		- ssh-keygen -t rsa
+		- cat id_rsa.pub
+		- Go to Browser-Github-Setting-SSHkey-New-Copy&Paste the key
+
+
